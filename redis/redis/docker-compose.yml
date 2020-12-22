@@ -1,0 +1,16 @@
+version: '3'
+services:
+  demo1:
+    image: redis
+    container_name: redis1
+    ports:
+      - 8190:8080
+  demo2:
+    image: redis
+    container_name: redis2
+    ports:
+      - 8191:8080
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
