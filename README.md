@@ -38,3 +38,24 @@ CREATE TABLE measurement_y2006m10 PARTITION OF measurement
 
 Лабораторная работа №8. Работа с kubernetes.
 =====================
+Для начала установлен Minikube. VM уже был установлен на машине. Запускаем minikube:
+
+minikube start
+
+Применяем minikube.yaml:
+kubectl apply -f minikube.yml
+
+Запустим dashboard:
+
+minikube dashboard
+
+Управление Minikube
+
+Пауза:
+minikube pause
+
+Остановка:
+minikube stop
+
+Удаление всех кластеров:
+minikube delete --all
