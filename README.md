@@ -35,3 +35,6 @@ Consumer - читает из очереди сообщения с определ
 CREATE TABLE measurement_y2006m10 PARTITION OF measurement
     FOR VALUES FROM ('2006-10-01') TO ('2006-11-01');
 Далее были выполнены различные команды такие, как: INSERT, DELETE, SELECT для проверки работы партиций.
+
+Лабораторная работа №8. Работа с kubernetes.
+=====================
