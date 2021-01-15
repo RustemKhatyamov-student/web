@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -k -v "https://smarty.mail.ru/api/v1/objects/detect?oauth_provider=mcs&oauth_token=12KRkzxrtgE7nxmofi2KsDwjVehrabvuTf9t4BkbMqzEk1GDu" -F file_0=@test1.jpg  -F meta='{"mode":["object"],"images":[{"name":"file_0"}]}'
